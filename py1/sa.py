@@ -33,3 +33,12 @@ bubblesort(vectorbs)
 
 ## El vector a ordenar es: [53, 1, 38, 93, 74, 83, 4, 18]
 ## El vector ordenado es:  [1, 4, 18, 38, 53, 74, 83, 93]
+
+
+n = 2000
+def fib (n):
+    a,b = 0,1
+    while a < n:
+        print(a, end= ' ')
+        a, b = b, a+b
+        print()
